@@ -17,6 +17,9 @@ ListNode<int> removeKFromList(ListNode<int> l, int k) {
     //Remove function test 1
     list.Remove(k);
     Console.WriteLine(l);
+    foreach (var k in list) {
+        Console.WriteLine(l);
+    }
     return l;
     }
  }
