@@ -13,4 +13,10 @@ ListNode<int> removeKFromList(ListNode<int> l, int k) {
     }
     Console.WriteLine(trav.value);    
     return l;
-}
+    }
+    //Remove function test 1
+    list.Remove(k);
+    Console.WriteLine(l);
+    return l;
+    }
+ }
